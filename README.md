@@ -1,7 +1,9 @@
-# sorobanide
+# SorobanIDE
 SorobanIDE: Visual Studio Code extension
 
 ```mermaid
-flowchart LR;
-  Soroban --> Visual Studio --> Extension;
+graph LR
+    SorobanIDE --> VSC-Extension
+    VSC-Extension --> VSC
 ```
+
