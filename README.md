@@ -2,8 +2,10 @@
 SorobanIDE: Visual Studio Code extension
 
 ```mermaid
-graph LR
-    SorobanIDE --> VSC-Extension
-    VSC-Extension --> VSC
+flowchart TD
+    VSC["Visual Studio Code"]
+    SorobanIDE["SorobanIDE"]
+    VSCE["Visual Studio Code extension"]
+    VSC --> VSCE --> SorobanIDE
 ```
 
