@@ -1,7 +1,7 @@
 # sorobanide
 SorobanIDE: Visual Studio Code extension
 
-:::mermaid
+```mermaid
 flowchart LR
 Soroban --> Visual Studio --> Extension
-:::
+```
